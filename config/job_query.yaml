@@ -1,0 +1,87 @@
+# Best-guess hidden job profile for the AI/ML engineering role.
+title_tiers:
+  tier_1:
+    score: 1.0
+    keywords:
+      - ml engineer
+      - machine learning engineer
+      - ai engineer
+      - artificial intelligence engineer
+      - data scientist
+      - nlp engineer
+      - research scientist
+      - applied scientist
+      - deep learning engineer
+  tier_2:
+    score: 0.85
+    keywords:
+      - mlops engineer
+      - data engineer
+      - computer vision engineer
+      - speech engineer
+      - research engineer
+  tier_3:
+    score: 0.6
+    keywords:
+      - software engineer
+      - backend engineer
+      - full stack engineer
+      - devops engineer
+      - platform engineer
+      - analytics engineer
+  tier_4:
+    score: 0.35
+    keywords:
+      - business analyst
+      - product manager
+      - project manager
+      - qa engineer
+      - frontend engineer
+  tier_5:
+    score: 0.1
+    keywords:
+      - hr manager
+      - marketing manager
+      - accountant
+      - graphic designer
+      - content writer
+      - civil engineer
+      - mechanical engineer
+      - operations manager
+      - customer support
+
+experience:
+  ideal_min: 3.0
+  ideal_max: 12.0
+  hard_min: 1.0
+  hard_max: 25.0
+
+education_fields:
+  - computer science
+  - artificial intelligence
+  - machine learning
+  - data science
+  - statistics
+  - mathematics
+  - electrical engineering
+  - information technology
+
+education_tier_bonus:
+  tier_1: 1.0
+  tier_2: 0.85
+  tier_3: 0.7
+  tier_4: 0.55
+  unknown: 0.5
+
+scoring_weights:
+  title: 0.35
+  skills: 0.30
+  experience: 0.15
+  education: 0.10
+  career_history: 0.10
+
+honeypot:
+  min_ai_skills_for_penalty: 5
+  max_title_score_for_penalty: 0.4
+  penalty_multiplier: 0.3
+  low_trust_multiplier: 0.6

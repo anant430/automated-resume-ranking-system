@@ -1,0 +1,48 @@
+team_name: "team_dev"
+
+primary_contact:
+  name: "Your Name"
+  email: "you@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "Your Name"
+    email: "you@example.com"
+    role: "Team Lead"
+
+github_repo: "https://github.com/YOUR_USERNAME/redrob-ranker"
+sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./team_dev.csv"
+
+compute:
+  platform: "Windows 11 local machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "Cursor"
+
+ai_usage_summary: |
+  Used Cursor for project scaffolding, scoring logic design, and code review.
+  No candidate data was sent to external LLM APIs during ranking.
+
+methodology_summary: |
+  Hybrid rule-based ranker with five weighted components: current title fit,
+  career history, AI core skills (with endorsement/duration trust), experience
+  years, and education. A behavioral multiplier uses recruiter response rate,
+  GitHub activity, and platform skill assessments. Honeypot-style profiles with
+  many AI skills but weak titles are penalized. Runtime streams JSONL and
+  selects top 100 on CPU without network access.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
