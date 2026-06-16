@@ -1,16 +1,16 @@
-team_name: "team_dev"
+team_name: "Anant team"
 
 primary_contact:
-  name: "Your Name"
-  email: "you@example.com"
-  phone: "+91-XXXXXXXXXX"
+  name: "Anant Singh"
+  email: "anantsingh7g@gmail.com"
+  phone: "+91-9214387686"
 
 team_members:
-  - name: "Your Name"
-    email: "you@example.com"
+  - name: "Anant Singh"
+    email: "anantsingh7g@gmail.com"
     role: "Team Lead"
 
-github_repo: "https://github.com/YOUR_USERNAME/redrob-ranker"
+github_repo: "https://github.com/anant430/automated-resume-ranking-system"
 sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./team_dev.csv"
 
