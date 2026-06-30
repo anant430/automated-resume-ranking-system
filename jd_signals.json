@@ -1,0 +1,54 @@
+{
+  "required_skills": [
+    "Python",
+    "PyTorch",
+    "FAISS",
+    "XGBoost",
+    "BM25",
+    "NDCG",
+    "MLOps",
+    "Docker",
+    "BGE"
+  ],
+  "synonyms": [
+    "vector search",
+    "learning to rank",
+    "dense retrieval",
+    "embedding"
+  ],
+  "experience_band": {
+    "min": 5,
+    "max": 9
+  },
+  "preferred_employer_types": [
+    "product"
+  ],
+  "hard_disqualifiers": [
+    "pure research",
+    "consulting-only",
+    "no production deployments",
+    "computer vision primary"
+  ],
+  "soft_disqualifiers": [
+    "title chaser",
+    "LangChain-only",
+    "no code in 18mo"
+  ],
+  "location_preferences": {
+    "pune_noida": 1.0,
+    "outside_india": 0.4
+  },
+  "notice_period_preferences": {
+    "le_30": 1.0,
+    "gt_120": 0.3
+  },
+  "key_jd_phrases": [
+    "hybrid dense (BGE) + sparse (BM25) retrieval with RRF fusion",
+    "learning-to-rank models (XGBoost, NDCG@10 optimization)",
+    "retrieval quality improvements with offline eval harness (MAP, P@10)",
+    "CPU-only, \u226416GB RAM production constraints",
+    "shipped FAISS or vector search in prod",
+    "pseudo-labeling and engagement modeling for recruiter workflows"
+  ],
+  "jd_text": "Senior ML Engineer \u2014 Search & Retrieval\n\nWe are hiring a Senior ML Engineer to build and scale hybrid retrieval systems\nfor candidate matching at Redrob. You will own dense + sparse retrieval pipelines,\nranking quality (NDCG, MAP), and production deployment of FAISS + BGE embeddings.\n\nRequired skills: Python, PyTorch, FAISS, XGBoost, BM25, NDCG, MLOps, Docker\nExperience: 5\u20139 years in product companies shipping ML systems to production\nLocation preference: Pune or Noida (India); remote within India acceptable\nNotice period: \u226430 days strongly preferred\n\nHard disqualifiers: pure research roles, consulting-only backgrounds, no production\ndeployments, computer vision / speech / robotics as primary domain without NLP/IR.\n\nSoft disqualifiers: title chaser (<18mo average tenure), LangChain-only stack,\nno hands-on code in last 18 months.\n\nKey responsibilities:\n- Build hybrid dense (BGE) + sparse (BM25) retrieval with RRF fusion\n- Train and evaluate learning-to-rank models (XGBoost, NDCG@10 optimization)\n- Ship retrieval quality improvements with offline eval harness (MAP, P@10)\n- Collaborate with infra on CPU-only, \u226416GB RAM production constraints\n\nPreferred: product company background, shipped FAISS or vector search in prod,\nexperience with pseudo-labeling and engagement modeling for recruiter workflows.\n"
+}

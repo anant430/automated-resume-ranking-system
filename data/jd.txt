@@ -1,0 +1,25 @@
+Senior ML Engineer — Search & Retrieval
+
+We are hiring a Senior ML Engineer to build and scale hybrid retrieval systems
+for candidate matching at Redrob. You will own dense + sparse retrieval pipelines,
+ranking quality (NDCG, MAP), and production deployment of FAISS + BGE embeddings.
+
+Required skills: Python, PyTorch, FAISS, XGBoost, BM25, NDCG, MLOps, Docker
+Experience: 5–9 years in product companies shipping ML systems to production
+Location preference: Pune or Noida (India); remote within India acceptable
+Notice period: ≤30 days strongly preferred
+
+Hard disqualifiers: pure research roles, consulting-only backgrounds, no production
+deployments, computer vision / speech / robotics as primary domain without NLP/IR.
+
+Soft disqualifiers: title chaser (<18mo average tenure), LangChain-only stack,
+no hands-on code in last 18 months.
+
+Key responsibilities:
+- Build hybrid dense (BGE) + sparse (BM25) retrieval with RRF fusion
+- Train and evaluate learning-to-rank models (XGBoost, NDCG@10 optimization)
+- Ship retrieval quality improvements with offline eval harness (MAP, P@10)
+- Collaborate with infra on CPU-only, ≤16GB RAM production constraints
+
+Preferred: product company background, shipped FAISS or vector search in prod,
+experience with pseudo-labeling and engagement modeling for recruiter workflows.
