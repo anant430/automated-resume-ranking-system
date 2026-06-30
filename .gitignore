@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Artifacts (regenerate via preprocess.py)
+*.pkl
+*.ubj
+*.bin
+*.npy
+bge_finetuned/
+team_*.csv
+submission.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
