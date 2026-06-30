@@ -1,0 +1,22 @@
+team_name: "Anant"
+primary_contact:
+  name: "Anant Singh"
+  email: "anantsingh8h@gmail.com"
+  phone: "9214387686"
+team_members:
+  - name: "Anant Singh"
+    email: "anantsingh8h@gmail.com"
+github_repo: "https://github.com/YOUR_USERNAME/redrob-ranker"  # TODO: fill before submission
+sandbox_link: "https://YOUR_APP.streamlit.app"                 # TODO: fill after Streamlit deploy
+ai_tools_declared:
+  - Claude
+  - ChatGPT
+compute_environment: "Offline: M2 MacBook Pro 32GB; Online: CPU-only Docker 16GB RAM limit"
+methodology_summary: >
+  Hybrid retrieval pipeline: BGE-small dense (FAISS) + BM25 sparse, fused via RRF (0.7/0.3).
+  Candidates pre-filtered by 4-rule honeypot detector (company age, tool birth year, mass
+  skill stuffing, chronological overlap). XGBoost dual-model ensemble (NDCG-optimized +
+  MAP-proxy, 75/25 blend) over 22 features including trajectory velocity, learned engagement
+  probability, and honeypot signals. Reasoning is fact-driven with 8 structural variants,
+  rank-modulated tone bands (4 tiers), and quoted JD phrases. Phase 0 pseudo-labels from
+  GPT-4 (offline only). Zero LLM calls in rank.py.
