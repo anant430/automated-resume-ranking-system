@@ -6,7 +6,7 @@ primary_contact:
 team_members:
   - name: "Anant Singh"
     email: "anantsingh8h@gmail.com"
-github_repo: "https://github.com/YOUR_USERNAME/redrob-ranker"  # TODO: fill before submission
+github_repo: "https://github.com/anant430/automated-resume-ranking-system"
 sandbox_link: "https://YOUR_APP.streamlit.app"                 # TODO: fill after Streamlit deploy
 ai_tools_declared:
   - Claude
